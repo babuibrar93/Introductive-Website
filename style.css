@@ -1,0 +1,324 @@
+* {
+    padding: 0;
+    margin: 0; 
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(orange, green);
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: 100px;
+    padding-left: 50px;
+   
+}
+
+.navbar-nav li {
+    
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: white!important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar-nav li a:hover {
+    color: orange !important;
+}
+
+    
+
+/*------------Banner Section-----------------*/
+
+
+#banner {
+    
+    background-color:beige;
+    color: black!important;
+    padding-top: 5%;
+    
+}
+
+
+/*------------Education Section-----------------*/
+
+
+#education {
+    
+     
+    padding-bottom: 50px;
+    padding-top: 50px;
+   
+    
+}
+
+.tittle{
+    content: '';
+    height: 0px;
+    color: green;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40%;
+    display: block;
+   
+    transform: translateY(63px);
+}
+
+.tittle::before{
+    content: '';
+   background-image: linear-gradient(orange, green);
+    height: 5px;
+    width: 300px;
+    margin-left: -53px;
+    margin-right: auto;
+    margin-bottom: -1%;
+    display: block;
+    transform: translateY(63px);
+}
+
+.tittle::after{
+    content: '';
+   background-image: linear-gradient(orange, green);
+    height: 10px;
+    width: 40px;
+    margin-left: 65px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: block;
+    transform: translateY(9px);
+}
+
+
+.schoolEducation {
+    width: 100px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    background-image: linear-gradient(orange, black);
+    
+}
+
+.collegeEducation {
+        width: 100px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+     background-image: linear-gradient(orange, black);
+  
+}
+
+.universityEducation {
+    width: 190px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+     background-image: linear-gradient(orange, black);
+    
+}
+
+.educationSec h4 {
+    padding: 5px;
+    margin-left: 25px;
+    text-transform: uppercase;
+    background-image: linear-gradient(orange,white);
+}
+
+#education .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    margin-top: 30px;
+    margin-left: 465px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: green;
+}
+
+
+/*------------About Section-----------------*/
+
+
+#about {
+    
+    background-color:beige;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+
+
+/*------------skills Section-----------------*/
+
+#skills {
+    
+   
+    padding-bottom: 5px;
+    padding-top: 50px;
+    
+    
+}
+
+.fa {
+    
+    text-align: left;
+    margin-left: 10px;
+}
+
+.tittle2{
+    content: '';
+    height: 0px;
+    color: green;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40%;
+    display: block;
+   
+    transform: translateY(63px);
+}
+
+.tittle2::before{
+    content: '';
+   background-image: linear-gradient(orange, green);
+    height: 5px;
+    width: 200px;
+    margin-left: -3px;
+    margin-right: auto;
+    margin-bottom: -1%;
+    display: block;
+    transform: translateY(63px);
+}
+
+.tittle2::after{
+    content: '';
+   background-image: linear-gradient(orange, green);
+    height: 10px;
+    width: 40px;
+    margin-left: 75px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: block;
+    transform: translateY(9px);
+}
+
+
+/*------------Contact Section-----------------*/
+
+
+#contact {
+    
+    background-color:beige;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+
+#contact h4 {
+    
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.socialMedia img {
+    
+    width: 50px;
+    transition: 0.5s;
+    height: 30%;
+    
+    
+}
+
+.socialMedia a:hover img {
+    
+    transform: translateY(-20px);
+}
+
+
+/*------------Contact Section-----------------*/
+
+ #footer {
+    
+    position: relative;
+   left: 0;
+   bottom: 0;
+    height: 500px;
+   width: 100%;
+   background-image: linear-gradient(green, orange);
+   color: white;
+   text-align: center;
+}
+
+#footer .footerImage {
+    
+    position: relative;
+     height: 50px;
+    width: 100px;
+    padding-left: 50px;
+    margin-top: 30px;
+    margin-left: -205%;
+}
+
+.footerBox {
+    margin-top: 2%;
+    margin-left: 30%;
+    text-align:center;
+    margin-right: -10%;
+    padding: 10px;
+}
+    
+.footerBox .fa-map-marker {
+    
+    margin-top: 20px;
+    margin-left: -18%;
+    font-size: 35px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(orange, orange);
+    
+    
+}
+
+.footerBox .fa-phone {
+     margin-top: 20px;
+    margin-left: -43%;
+    font-size: 35px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(orange, orange);
+}
+
+.footerBox .fa-envelope-o {
+    
+    margin-top: 20px;
+    margin-left: -35%;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(orange, orange);
+}
